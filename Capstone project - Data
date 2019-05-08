@@ -1,0 +1,8 @@
+In this section, I will describe the data I will use to solve this problem. 
+
+I will select the popular places where people like to go. Because these places 
+are very frequented by people and so after good hours of shopping or cinema, they are probably hungry.
+To do that, I will use Foursquare location data to select the most popular places in Paris. 
+I will first use a geolocator to get the longitude and latitude of Paris and then I will pass it on the 
+url calling Foursquare API. I will use the exploring mode while calling at Foursquare. 
+This will return me several data about popular places such as name, id, categories, longitude, latitude, address …
